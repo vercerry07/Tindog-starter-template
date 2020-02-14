@@ -1,0 +1,148 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+body {
+    font-family: 'Montserrat-black';
+}
+
+#h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 5.8rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+#brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    
+}
+.btn {
+    border-radius: 6.6px;
+}
+
+#iphone {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    padding-top: 10%;
+    /* position: absolute;
+    z-index: -1; */
+}
+
+#features {
+    background-color: #fff;
+    /* position: absolute;
+    z-index: 1; */
+}
+
+.fbox {
+    text-align: center;
+    padding: 5%;
+}
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link {
+    font-size: 1.3rem;
+
+}
+
+.h31 {
+    text-align: center;
+   
+}
+
+.pclass {
+    text-align: center;
+    color: grey;
+}
+
+.fas {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+.fcen {
+    text-align: center;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+
+}
+
+h2 {
+    font-size: 2.1rem;
+    line-height: 2.0rem;
+
+}
+
+.test {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20%;
+
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p1 p {
+    color: gray;
+}
+
+@media(max-width:1028px){
+    #iphone {
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    height: 150px;
+    color: #fff;
+   margin-bottom: 30px;
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
